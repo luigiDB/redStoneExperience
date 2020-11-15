@@ -8,13 +8,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
 
-    //The ITEMS deferred register in which you can register items.
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RedStoneExperience.MOD_ID);
 
-    //Register the tutorial dust with "tutorial_dust" as registry name and default properties
     public static final RegistryObject<Item> TUTORIAL_DUST = ITEMS.register("tutorial_dust", () -> new Item(new Item.Properties()));
 
-    //Register the tutorial block's item so a player can place it.
+    //Item Block
     public static final RegistryObject<Item> TUTORIAL_BLOCK = ITEMS.register("tutorial_block", () -> new BlockItem(ModBlocks.TUTORIAL_BLOCK.get(), new Item.Properties()));
+    public static final RegistryObject<Item> NOT_BLOCK = ITEMS.register("not_block", () -> new BlockItem(ModBlocks.NOT_BLOCK.get(), new Item.Properties()));
 
 }
