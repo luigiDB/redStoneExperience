@@ -1,0 +1,47 @@
+{
+    "textures": {
+        "logic_top": "redstoneexperience:block/logic_top",
+        "gray_texture": "redstoneexperience:block/gray_texture"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 324, 334, 306 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ], 
+            "to": [ 16, 2, 16 ], 
+            "faces": {
+                "north": { "texture": "#gray_texture", "uv": [ 0, 0, 0, 0 ] },
+                "east": { "texture": "#gray_texture", "uv": [ 0, 0, 16, 2 ] },
+                "south": { "texture": "#gray_texture", "uv": [ 0, 0, 16, 2 ] },
+                "west": { "texture": "#gray_texture", "uv": [ 0, 0, 16, 2 ] },
+                "up": { "texture": "#logic_top", "uv": [ 0, 0, 16, 16 ] },
+                "down": { "texture": "#gray_texture", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}
